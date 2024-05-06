@@ -2,3 +2,47 @@
     padding: 0;
     margin: 0;
 }
+
+#sections {
+    background-color: rgb(176, 183, 247);
+    padding: 20px;
+}
+
+#title{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#a-link{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.links{
+    display: flex;
+    text-decoration: none;
+    float: right;
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+#container-img {
+    display: inline-block;
+    /* width: 500px; */
+    padding: 50px;
+}
+#container-text{
+    display: block;
+    width: 300px;
+    font-size: large;
+    margin-left: 300px;
+}
+
+
+#img{
+    float: left;
+}
+
+

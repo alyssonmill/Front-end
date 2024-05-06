@@ -1,5 +1,34 @@
 * {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
+#navBar{
+    background-color: rgb(166, 152, 255);
+    padding: 20px;
+}
+#sections{
+    background-color: rgb(166, 152, 255);
+    padding: 20px;
+}
+#title{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#a-link{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.links{
+    display: flex;
+    text-decoration: none;
+    float: right;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
 
