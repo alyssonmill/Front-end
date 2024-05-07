@@ -3,14 +3,17 @@
     margin: 0;
 }
 
-#sections {
-    background-color: rgb(176, 183, 247);
-    padding: 20px;
+.nav-menu{
+    max-width: 90vw;
+    margin: auto;
+    padding: 1.25vw;
+    background-color: blue;
+    color: white;
 }
 
-#title{
-    display: inline-block;
-    margin-bottom: 20px;
+#nav-bar{
+    max-width: 60vw;
+    text-align: center;
 }
 #a-link{
     margin-left: 10px;
@@ -26,21 +29,28 @@ a{
     color: inherit;
     text-decoration: none;
 }
-
-
-#container-img {
+#content{
+    max-width: 90vw;
+    margin: 30px auto;
+}
+#card{
+    width: 38vw;
+    height: 300px;
+    padding: 2vw;
+    margin: 1vw 1.25vw;
+    float: left;
+    text-align: left;
+}
+#title{
     display: inline-block;
-    /* width: 500px; */
-    padding: 50px;
+    margin-bottom: 20px;
 }
 #container-text{
     display: block;
-    width: 300px;
+    width: 200px;
     font-size: large;
     margin-left: 300px;
 }
-
-
 #img{
     float: left;
 }
