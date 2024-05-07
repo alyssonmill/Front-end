@@ -11,42 +11,44 @@
     background-color: blue;
     color: white;
 }
-#content{
-    text-align: center;
-    max-width: 90vw;
-    margin: auto;
-    margin-top: 2.25vw;
-}
+
 #nav-bar{
     max-width: 60vw;
     text-align: center;
 }
+#content{
+    max-width: 90vw;
+    margin: 30px auto;
+}
+#card{
+    width: 16vw;
+    height: 300px;
+    padding: 2vw;
+    margin: 1vw 1.25vw;
+    background-color: red;
+    float: left;
+    text-align: center;
+}
 
-.card1{
-    width: 25vw;
-    height: 10vw;
+/* .card2{
+    width: 20vw;
+    height: 200px;    
     padding: 1vw;
-    background-color: red;
-    margin:auto;
-    float: left;
+    background-color: rgb(255, 191, 0);
+    margin: 1.25vw auto;
     text-align: center;
 }
 
-.card2{
-    width: 25vw;
-    height: 20vw;
-    background-color: red;
-    margin: auto;
-    text-align: center;
-}
-/* #card{
-    width: 25vw;
-    height: 20vw;
-    background-color: red;
-    margin-top:0 1.25vw 0 0 auto;
-    float: left;
-    text-align: center;
-} */
+.card3{
+    width: 20vw;
+    height: 200px;
+    padding: 1vw;
+    background-color: rgb(255, 191, 0);
+    margin: 1.25vw auto;
+    /* text-align: center; */
+
+
+
 #title{
     display: inline-block;
     margin-bottom: 20px;
