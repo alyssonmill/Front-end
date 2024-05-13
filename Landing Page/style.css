@@ -70,12 +70,12 @@ img {
   display: inline-block;
   width: 50%;
   float: right;
-  font-size: 25px;
+  font-size: 1.5em;
 }
 
 #list {
   float: left;
-  margin-left: 2vw;
+  margin-left: 1.5em;
 }
 
 .content {
@@ -108,7 +108,7 @@ img {
   margin-top: 5vh;
 }
 #btn-content{
-  padding: 1.5em;
+  padding: 2em;
   background-color: #3452FF;
   border: none;
   border-radius: 10px;
@@ -116,7 +116,7 @@ img {
   color: white;
 }
 #btn-contact{
-  padding: 1.5em;
+  padding: 2em;
   background-color: #3452FF;
   border: none;
   border-radius: 10px;
@@ -131,8 +131,9 @@ img {
 .objection{
   font-size: 2em;
   margin-top: 15vh;
+  font-weight: 600;
+  line-height: 1.5em;
 }
-
 .whatWedo{
   color: #898989;
   width: 100%;
@@ -145,10 +146,7 @@ img {
   text-align: center;
 }
 .tech-img{
-  width: 40vw;
-  margin-top: 17.5vh;
-  border-radius: 10px;
-  box-shadow: 0px 8px 28px -2px rgba(0, 0, 0, 0.5);
+ 
 }
 .whatWedo-content{
   display: inline-block;
@@ -162,29 +160,29 @@ img {
   height: 30vh;
   margin-top: 25vh;
 }
-
 .howWedo{
   color: #898989;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: #082F5E;
+  display: inline-block;
 }
 .howWedo-img{
   display: inline-block;
   width: 50%;
-  height: 80vh;
+  height: 100vh;
   text-align: center;
 }
 .tech-img{
-  width: 40vw;
-  margin-top: 17.5vh;
-  border-radius: 10px;
-  box-shadow: 0px 8px 28px -2px rgba(0, 0, 0, 0.5);
+  width: 25vw;
+  margin-top: 20vh;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 8px 28px -2px rgba(0, 0, 0, 0.5);  */
 }
 .howWedo-content{
   display: inline-block;
   width: 50%;
-  height: 80vh;
+  height: 100vh;
   float: left;
 }
 .howWedo-article{
@@ -197,23 +195,26 @@ img {
 }
 #btn-howWeDo{
   margin-top: 5vh;
-  padding: 1.5em;
+  padding: 2em;
   background-color: #3452FF;
   border: none;
   border-radius: 10px;
-  font-weight: 700;
+  font-weight: 800;
   color: white;
 }
 .process{
+  display: inline-block;
   height: 100vh;
+  width: 100%;
   background-color: #082F5E;
+  background-color: red;
   color: white;
   text-align: center;
 }
 .process-title{
   text-align: center; 
   font-size: 2.5em; 
-  padding-top: 20vh; 
+  margin-top: 10vh; 
 }
 #card{
   height: 35vh;
@@ -230,12 +231,13 @@ img {
   padding: 25px;
 }
 .btn-process{
+  display: inline-block;
   margin-top: 10vh;
   padding: 2em;
   background-color: #3452FF;
   border: none;
   border-radius: 10px;
-  font-weight: 700;
+  font-weight: 800;
   color: white;
 }
 #icon{
@@ -249,5 +251,12 @@ img {
 }
 .card-content{
   margin-top: 2vh;
+}
+
+.portfolio{
+  height: 20vh;
+  width: 100%;
+  background-color: blue;
+  margin-top: 11vh;
 }
 
