@@ -52,7 +52,7 @@ img {
   text-align: center;
   line-height: 15vh;
   color: white;
-  position:fixed;
+  position: fixed;
 
 }
 
@@ -95,19 +95,23 @@ img {
   margin-top: 30vh;
   font-weight: 300;
 }
-.content-tittle{
+
+.content-tittle {
   font-size: 2em;
   font-weight: 800;
 }
-.content-subtittle{
+
+.content-subtittle {
   font-size: 0.7em;
   font-weight: 300;
   margin-top: 5vh;
 }
-.btn{
+
+.btn {
   margin-top: 5vh;
 }
-#btn-content{
+
+#btn-content {
   padding: 2em;
   background-color: #3452FF;
   border: none;
@@ -115,7 +119,8 @@ img {
   font-weight: 800;
   color: white;
 }
-#btn-contact{
+
+#btn-contact {
   padding: 2em;
   background-color: #3452FF;
   border: none;
@@ -123,69 +128,79 @@ img {
   font-weight: 800;
   color: white;
 }
-.objections-content{
+
+.objections-content {
   color: #082F5E;
   text-align: center;
   height: 20vh;
 }
-.objection{
+
+.objection {
   font-size: 2em;
   margin-top: 15vh;
   font-weight: 600;
   line-height: 1.5em;
 }
-.whatWedo{
+
+.whatWedo {
   color: #898989;
   width: 100%;
   height: 100vh;
 }
-.whatWedo-img{
+
+.whatWedo-img {
   display: inline-block;
   width: 50%;
   height: 100vh;
   text-align: center;
 }
-.tech-img{
- 
-}
-.whatWedo-content{
+
+.tech-img {}
+
+.whatWedo-content {
   display: inline-block;
   width: 50%;
   height: 100vh;
   float: right;
 }
-.whatWedo-article{
+
+.whatWedo-article {
   font-weight: 700;
   line-height: 10vh;
   height: 30vh;
   margin-top: 25vh;
 }
-.howWedo{
+
+.howWedo {
   color: #898989;
   width: 100%;
   height: 100vh;
   background-color: #082F5E;
   display: inline-block;
 }
-.howWedo-img{
+
+.howWedo-img {
   display: inline-block;
   width: 50%;
   height: 100vh;
   text-align: center;
 }
-.tech-img{
+
+.tech-img {
   width: 25vw;
   margin-top: 20vh;
   /* border-radius: 10px; */
   /* box-shadow: 0px 8px 28px -2px rgba(0, 0, 0, 0.5);  */
 }
-.howWedo-content{
+
+.howWedo-content {
   display: inline-block;
   width: 50%;
   height: 100vh;
   float: left;
 }
-.howWedo-article{
+
+.howWedo-article {
   line-height: 10vh;
   height: 30vh;
   margin-top: 20vh;
@@ -193,31 +208,34 @@ img {
   text-align: center;
   font-weight: 100;
 }
-#btn-howWeDo{
+
+#btn-howWeDo {
   margin-top: 5vh;
-  padding: 2em;
+  padding: 2em; 
   background-color: #3452FF;
   border: none;
   border-radius: 10px;
   font-weight: 800;
   color: white;
 }
-.process{
+
+.process {
   display: inline-block;
   height: 100vh;
   width: 100%;
   background-color: #082F5E;
-  background-color: red;
   color: white;
   text-align: center;
 }
-.process-title{
-  text-align: center; 
-  font-size: 2.5em; 
-  margin-top: 10vh; 
+
+.process .process-title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20vh;
 }
-#card{
-  height: 35vh;
+
+.process .card {
+  height: 40vh;
   width: 20vw;
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -230,7 +248,8 @@ img {
   line-height: 3.5vh;
   padding: 25px;
 }
-.btn-process{
+
+.process .btn-process {
   display: inline-block;
   margin-top: 10vh;
   padding: 2em;
@@ -240,23 +259,77 @@ img {
   font-weight: 800;
   color: white;
 }
-#icon{
+
+.process .icon {
   width: 4em;
   margin-top: 2vh;
 }
-#card-title{
+
+.process .card-title {
   color: black;
   margin-top: 1vh;
   font-weight: 600;
 }
-.card-content{
+.process .card-content{
   margin-top: 2vh;
 }
 
 .portfolio{
-  height: 20vh;
+  margin-top: 7vh;
+  text-align: center;
+  display: inline-block;
+  height: 150vh;
   width: 100%;
-  background-color: blue;
-  margin-top: 11vh;
+  /* background-color: red; */
+  color: white;
 }
+
+.portfolio .portfolio-title{
+  color: black;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 20vh;
+  font-weight: 700;
+}
+
+.portfolio .card {
+  height: 40vh;
+  width: 20vw;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  float: left;
+  margin-left: 7vh;
+  border-radius: 10px;
+  box-shadow: 0px 8px 28px -2px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: black;
+  line-height: 3.5vh;
+  padding: 25px;
+}
+
+.portfolio .icon {
+  width: 4em;
+  margin-top: 2vh;
+}
+
+.portfolio .card-title {
+  color: black;
+  margin-top: 1vh;
+  font-weight: 600;
+}
+
+.portfolio .btn-process {
+  display: inline-block;
+  margin-top: 10vh;
+  padding: 2em;
+  background-color: #3452FF;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  color: white;
+}
+.portfolio .card-content{
+  margin-top: 2vh;
+}
+
 
