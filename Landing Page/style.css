@@ -73,6 +73,11 @@ img {
   float: right;
   font-size: 1.5em;
 }
+.navList :hover{
+  transition-duration: 0.3s;
+  color: rgba(52,82,255,1);
+  font-size: 1.2em;
+}
 
 #list {
   float: left;
