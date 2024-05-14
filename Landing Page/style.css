@@ -75,8 +75,9 @@ img {
 }
 .navList :hover{
   transition-duration: 0.3s;
+  transition-duration: color;
   color: rgba(52,82,255,1);
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 #list {
@@ -118,7 +119,9 @@ img {
   margin-top: 5vh;
 }
 
-#btn-content {
+
+
+.btn-content {
   padding: 2em;
   background-color: #3452FF;
   border: none;
@@ -127,13 +130,26 @@ img {
   color: white;
 }
 
-#btn-contact {
+.btn-content:hover{
+  transition-duration: 0.5s;
+  color: rgb(247, 247, 247);
+  padding: 2.5em;
+  color: black;
+}
+
+.btn-contact {
   padding: 2em;
   background-color: #3452FF;
   border: none;
   border-radius: 10px;
   font-weight: 800;
   color: white;
+}
+.btn-contact:hover{
+  transition-duration: 0.5s;
+  color: rgb(247, 247, 247);
+  padding: 2.5em;
+  color: black;
 }
 
 .objections-content {
@@ -152,7 +168,7 @@ img {
 .whatWedo {
   color: #898989;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
 }
 
 .whatWedo-img {
@@ -162,7 +178,6 @@ img {
   text-align: center;
 }
 
-.tech-img {}
 
 .whatWedo-content {
   display: inline-block;
@@ -216,7 +231,7 @@ img {
   font-weight: 100;
 }
 
-#btn-howWeDo {
+.btn-howWeDo {
   margin-top: 5vh;
   padding: 2em;
   background-color: #3452FF;
@@ -224,6 +239,13 @@ img {
   border-radius: 10px;
   font-weight: 800;
   color: white;
+}
+
+.btn-howWeDo:hover{
+  transition-duration: 0.5s;
+  color: rgb(247, 247, 247);
+  padding: 2.5em;
+  color: black;
 }
 
 .process {
@@ -238,11 +260,11 @@ img {
 .process .process-title {
   text-align: center;
   font-size: 2.5em;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .process .card {
-  height: 40vh;
+  height: 23vh;
   width: 20vw;
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -254,17 +276,35 @@ img {
   color: black;
   line-height: 3.5vh;
   padding: 25px;
+  overflow: hidden;
 }
 
-.process .btn-process {
-  display: inline-block;
-  margin-top: 10vh;
+.process .card-content {
+  margin-top: 4vh;
+}
+
+.card:hover{
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  height: 35vh;
+}
+
+.btn-process {
+  display:inline-block;
+  margin-top: 20vh;
   padding: 2em;
   background-color: #3452FF;
   border: none;
   border-radius: 10px;
   font-weight: 800;
   color: white;
+}
+
+.btn-process:hover{
+  transition-duration: 0.5s;
+  color: rgb(247, 247, 247);
+  padding: 2.5em;
+  color: black;
 }
 
 .process .icon {
@@ -278,9 +318,7 @@ img {
   font-weight: 600;
 }
 
-.process .card-content {
-  margin-top: 2vh;
-}
+
 
 .portfolio {
   margin-top: 7vh;
