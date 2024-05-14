@@ -211,7 +211,7 @@ img {
 
 #btn-howWeDo {
   margin-top: 5vh;
-  padding: 2em; 
+  padding: 2em;
   background-color: #3452FF;
   border: none;
   border-radius: 10px;
@@ -231,7 +231,7 @@ img {
 .process .process-title {
   text-align: center;
   font-size: 2.5em;
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .process .card {
@@ -270,21 +270,23 @@ img {
   margin-top: 1vh;
   font-weight: 600;
 }
-.process .card-content{
+
+.process .card-content {
   margin-top: 2vh;
 }
 
-.portfolio{
+.portfolio {
   margin-top: 7vh;
   text-align: center;
   display: inline-block;
   height: 150vh;
   width: 100%;
-  /* background-color: red; */
   color: white;
+  /* background-color: blue; */
+
 }
 
-.portfolio .portfolio-title{
+.portfolio .portfolio-title {
   color: black;
   text-align: center;
   font-size: 2.5em;
@@ -328,8 +330,71 @@ img {
   font-weight: 800;
   color: white;
 }
-.portfolio .card-content{
+
+.portfolio .card-content {
   margin-top: 2vh;
 }
 
+.contact {
+  background-color: #082F5E;
+  height: 100vh;
+  text-align: center;
+}
+.contact-title{
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 10vh;
+  color: white;
+}
 
+form {
+  color: white;
+  display: inline-block;
+  width: 50vw;
+  height: 50vh; 
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  margin-top: 10vh;
+}
+
+.form-list{
+  font-size: 1.2em;
+  margin: 7vh;
+}
+
+form li + li {
+  margin-top: 1.2em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  min-width: 90px;
+  text-align: right ;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  /* vertical-align: top; */
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: 0.5em;
+}
