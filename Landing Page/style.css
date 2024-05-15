@@ -282,13 +282,6 @@ img {
 .process .card-content {
   margin-top: 4vh;
 }
-
-.card:hover{
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
-  /* height: 35vh; */
-}
-
 .btn-process {
   display:inline-block;
   margin-top: 15vh;
@@ -317,8 +310,6 @@ img {
   margin-top: 1vh;
   font-weight: 600;
 }
-
-
 
 .portfolio {
   margin-top: 7vh;
