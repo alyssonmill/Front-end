@@ -260,11 +260,11 @@ img {
 .process .process-title {
   text-align: center;
   font-size: 2.5em;
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 
 .process .card {
-  height: 23vh;
+  height: 40vh;
   width: 20vw;
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -286,12 +286,12 @@ img {
 .card:hover{
   transition-duration: 0.5s;
   transition-timing-function: linear;
-  height: 35vh;
+  /* height: 35vh; */
 }
 
 .btn-process {
   display:inline-block;
-  margin-top: 20vh;
+  margin-top: 15vh;
   padding: 2em;
   background-color: #3452FF;
   border: none;
